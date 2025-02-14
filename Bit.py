@@ -6,7 +6,7 @@ x = 0
 
 # Process each statement
 for _ in range(n):
-    statement = input()
+    statement = input().strip()
     if "++" in statement:
         x += 1
     elif "--" in statement:
