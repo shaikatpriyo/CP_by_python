@@ -4,5 +4,6 @@ for i in range(5):
     if 1 in row:
         r, c = i + 1, row.index(1) + 1  
 
+
 moves = abs(r - 3) + abs(c - 3)
 print(moves)
