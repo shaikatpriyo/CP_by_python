@@ -1,12 +1,14 @@
-m= input().strip()
-n= input().strip()
 
-m = m.lower()
-n = n.lower()
+s = input().strip()
 
-if m > n :
-    print("1")
-elif m < n :
-    print("-1")
-else :
-    print("0") 
+
+numbers = s.split('+')
+
+
+numbers.sort()
+
+
+result = '+'.join(numbers)
+
+
+print(result)
