@@ -10,6 +10,7 @@ def find_winner(n, s):
         print("Friendship")
 
 
+
 n = int(input().strip())
 s = input().strip()
 
