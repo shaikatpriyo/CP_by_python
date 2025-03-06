@@ -2,6 +2,6 @@ s=input().strip()
 t=input().strip()
 
 if s[:: -1]==t :
-    print("yes")
+    print("YES")
 else :
-    print("No")
+    print("NO")
