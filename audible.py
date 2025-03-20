@@ -8,9 +8,9 @@ def can_binary_hear(T, frequencies):
         else:
             print("NO")
 
-# Read number of test cases
+
 T = int(input())
 frequencies = [int(input()) for _ in range(T)]
 
-# Check if Binary can hear the frequencies
+
 can_binary_hear(T, frequencies)
