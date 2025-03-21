@@ -1,16 +1,9 @@
-def can_binary_hear(T, frequencies):
-    min_freq = 67
-    max_freq = 45000
-    
-    for X in frequencies:
-        if min_freq <= X <= max_freq:
-            print("YES")
-        else:
-            print("NO")
+# cook your dish here
+T=int(input())
 
-
-T = int(input())
-frequencies = [int(input()) for _ in range(T)]
-
-
-can_binary_hear(T, frequencies)
+for _ in range(T):
+    X=int(input())
+    if X >= 67 and X <= 45000:
+         print("YES")
+    else:
+        print("NO")
